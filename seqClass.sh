@@ -1,5 +1,4 @@
 #!/bin/bash
-#script to identify dna/rna sequences
 seq=$1
 seq=$(echo $seq | tr a-z A-Z) # upper-case input seq
 if [[ $seq =~ ^[ACGTU]+$ ]]; then
