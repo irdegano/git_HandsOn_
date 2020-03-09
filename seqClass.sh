@@ -10,5 +10,5 @@ if [[ $seq =~ ^[ACGTU]+$ ]]; then
 		echo "The sequence can be DNA or RNA"
 	fi
 else
-	echo "The sequence is not DNA nor RNA"
+	echo "The sequence is not"
 fi
