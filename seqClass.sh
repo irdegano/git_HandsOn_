@@ -20,6 +20,6 @@ sequence '$seq'..."
 	if [[ $seq =~ $motif ]]; then
 		echo "FOUND"
 	else
-		echo "NOT FOUND"
+		echo "MOTIF NOT FOUND"
 	fi
 fi
