@@ -12,13 +12,12 @@ if [[ $seq =~ ^[ACGTU]+$ ]]; then
 else
 	echo "The sequence is not"
 fi
-
 motif=$(echo $2 | tr a-z A-Z)
 if [[ -n $motif ]]; then
 	echo -en "Motif search enabled: looking for motif '$motif' in 
 sequence '$seq'..."
 	if [[ $seq =~ $motif ]]; then
-		echo "MOTIF FOUND OK"
+		echo "MOTIF FOUND YES"
 	else
 		echo "MOTIF NOT FOUND"
 	fi
