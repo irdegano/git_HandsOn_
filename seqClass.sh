@@ -18,7 +18,7 @@ if [[ -n $motif ]]; then
 	echo -en "Motif search enabled: looking for motif '$motif' in 
 sequence '$seq'..."
 	if [[ $seq =~ $motif ]]; then
-		echo "FOUND"
+		echo "MOTIF FOUND"
 	else
 		echo "NOT FOUND"
 	fi
